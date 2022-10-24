@@ -16,4 +16,6 @@ public interface RegisterService {
     void deleteById(String id);
 
     Optional<Register> read(String s);
+
+    Register save(Register register);
 }

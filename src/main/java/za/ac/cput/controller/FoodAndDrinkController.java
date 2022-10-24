@@ -1,10 +1,13 @@
+/*
 
+*/
 /*
  *Project 3
  *Movie Ticket System
  *Tasneem Jacobs (215030389)
  * Controller :Food and Drink
-  */
+  *//*
+
 package za.ac.cput.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,4 +55,4 @@ public class FoodAndDrinkController {
         log.info("Read Request: {}", comboNo);
         return this.foodAndDrinkService.read(comboNo);
     }
-}
+}*/
